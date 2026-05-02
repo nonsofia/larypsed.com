@@ -1,90 +1,37 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>larypsed - about</title>
-		<link rel="stylesheet" href="css/general.css" type="text/css" />
-		<!--[if IE]> <link rel="stylesheet" href="css/ie.css" type="text/css" /> <![endif]-->
-	</head>
-	<body>
-		<div id="container">
-			<h1><a href="index.html">georgi dimitrov</a></h1>
-			<div id="sitenav">
-				<a class="nav-selected">about</a> <br />
-				<a href="painting.html">painting</a> <br />
-                <a href="drawing.html">drawing</a> <br />
-				<a href="space.html" >space</a> <br />
-				<a href="http://larypsed.blogspot.com/">current</a> <br />
-                <div class="menu-contacts">
-                    <a href="http://nonsofia.org/">nonsofia</a> <br />
-    				<a href="http://orthogonal.bg/">orthogonal</a> <br />
-                </div>
-				<a href="contacts.html" >contacts</a> <br />
-			</div>
+---
+layout: text
+title: about
+permalink: /about.html
+external_links_blank: true
+---
+{% assign about = site.data.about %}
 
-			<div id="text-content">
-				<p>born 1980, burgas, bulgaria</p>
-				<p>ba, <a href="http://www.victoria.ac.nz/" target="_blank">vuw</a>, new zealand</p>
-				<p>lives and works in sofia, bulgaria</p><br />
+{% for line in about.bio %}
+<p>{{ line }}</p>
+{% endfor %}
 
-				<p class="heading">activities</p>
-				<p class="yearlist"><span class="year">2012</span>founder of <a href="http://www.orthogonal.bg" target="_blank">orthogonal: international forum for non-objective art</a></p>
-				<p class="yearlist"><span class="year"></span>member of the <a href="http://www.sbhart.com/en" target="_blank">union of bulgarian artists</a></p>
-				<p class="yearlist"><span class="year">2010</span>founder of <a href="http://www.nonsofia.org" target="_blank">nonsofia</a>, non-profit platform for constructive art in bulgaria</p>
-				<p class="yearlist"><span class="year">2008</span><a href="http://ruf-award.org/" target="_blank">gaudenz b. ruf award for new bulgarian art</a>, award coordinator</p><br />
+<br />
 
-				<p class="heading">selected exhibitions</p>
-<!--
-				<p class="yearlist"><span class="year">2015</span><a href="" target="_blank"> </a>, <a href="" target="_blank"> </a> </p>
--->
-				<p class="yearlist"><span class="year">2021</span><a href="http://www.nonsofia.org/2021/03/beyond-horizon-doza-gallery-sofia.html" target="_blank">beyond the horizon</a>, <a href="https://www.facebook.com/dozagallery/" target="_blank">doza gallery</a>, sofia (c)</p>
-				<p class="yearlist"><span class="year"></span>boundary situation 2: the drawing in contemporary art, <a href="https://www.facebook.com/nbu.uniart/" target="_blank">uniart gallery</a>, sofia</p>
+<p class="heading">activities</p>
+{% for group in about.activities %}
+  {% for item in group.items %}
+    {% if forloop.first %}
+<p class="yearlist"><span class="year">{{ group.year }}</span>{{ item }}</p>
+    {% else %}
+<p class="yearlist"><span class="year"></span>{{ item }}</p>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 
-				<p class="yearlist"><span class="year">2020</span><a href="https://www.youtube.com/watch?v=IzTCnqJhKBk&feature=youtu.be" target="_blank">konstruktiv.ist 2: art+mathematics</a>, virtual exhibition</p>
-                <p class="yearlist"><span class="year"></span><a href="https://www.youtube.com/watch?v=UUb0mL8WzNU" target="_blank">konstruktiv.ist 1</a>, virtual exhibition</p>
-                <p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2020/11/beyond-horizon-new-burgas.html" target="_blank">beyond the horizon: new burgas</a>, national academy of art, burgas (c)</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2020/08/beyond-horizon-varna-city-art-gallery.html" target="_blank">beyond the horizon</a>, <a href="http://varnacityartgallery.com/" target="_blank">city art gallery</a>, varna (c)</p>
+<br />
 
-				<p class="yearlist"><span class="year">2019</span><a href="https://www.facebook.com/media/set/?vanity=haromhet&set=a.2654794214582819" target="_blank">concrete space 1</a>, <a href="http://www.haromhet.hu/" target="_blank">három hét galéria</a>, budapest</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2019/08/views-from-orthogonal18-export-2.html" target="_blank">orthogonal18: export 2</a>, city art gallery, burgas (c)</p>
-                <p class="yearlist"><span class="year"></span><a href="https://photos.app.goo.gl/vVzGLjNnyhK7eu6q6" target="_blank">absolute love</a>, <a href="http://www.haromhet.hu" target="_blank">három hét galéria</a>, budapest (s)</p>
-
-                <p class="yearlist"><span class="year">2018</span><a href="http://orthogonal.bg/" target="_blank">orthogonal18: export 1</a>, <a href="http://kunsthaus-rehau.de" target="_blank">ikkp kunsthaus rehau</a>, germany (c)</p>
-                <p class="yearlist"><span class="year"></span><a href="http://angus-hughes.org/THE-CELLAR-GALLERY" target="_blank">the momentum</a>, <a href="http://www.saturationpoint.org.uk/" target="_blank">saturation point</a> / <a href="http://angus-hughes.org/" target="_blank">angus-hughes gallery</a>, london, uk</p>
-
-				<p class="yearlist"><span class="year">2017</span><a href="http://bruchunddallas.de/2017/billy/" target="_blank">rnpg: europa</a>, <a href="http://bruchunddallas.de/" target="_blank">bruch und dallas</a>, cologne, germany</p>
-                <p class="yearlist"><span class="year"></span><a href="https://mtariicrisurilor.ro/expozitia-arta-concreta-geometrica-colectia-ingo-glass/" target="_blank">arta concretă – geometrică: colecţia ingo glass</a>, <a href="https://mtariicrisurilor.ro/" target="_blank">muzeul tării crişurilor</a>, romania</p>
-                <p class="yearlist"><span class="year"></span><a href="http://mailchi.mp/eafa53563760/invitation-opening-assemblage-no-4-van-doesburg-fanclub-6-june-from-5-7pm-amsterdam-concrete-concrete-store-spuistraat-250-amsterdam?e=f773e0d484" target="_blank">van doesburg fanclub</a>, <a href="http://www.agns.nl/" target="_blank">agns</a>/<a href="http://www.modernartprojects.org/" target="_blank">map</a>/<a href="http://www.is-projects.org/" target="_blank">is-p</a>, <a href="https://concrete.nl/" target="_blank">amsterdam concrete</a>, the netherlands</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.orthogonal.bg" target="_blank">orthogonal16: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/" target="_blank">the red house</a>, sofia (c)</p>
-				<p class="yearlist"><span class="year">2016</span>grid, xs gallery, institute of fine arts, jan kochanowski university, kielce, poland</p>
-				<p class="yearlist"><span class="year">2015</span><a href="http://viennacontemporary.at" target="_blank">viennacontemporary</a>, <a href="http://www.viennacontemporary.at/en/focus-bulgaria/" target="_blank">focus bulgaria</a>, vienna, austria</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.imagomundiart.com/exhibitions/map-new-art-0" target="_blank">imago mundi: map of the new art</a>, <a href="http://www.cini.it/en" target="_blank">fondazione cini</a>, venice, italy</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2015/07/colour-sound-movement.html" target="_blank">colour - sound - movement</a>, <a href="http://credobonum.bg" target="_blank">credo gallery</a>, sofia</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.orthogonal.bg" target="_blank">orthogonal14: the black sea edition</a>, <a href="http://www.contemporaryspace.bg/" target="_blank">contemporary space</a>, varna (c)</p>
-				<p class="yearlist"><span class="year">2014</span><a href="http://www.orthogonal.bg" target="_blank">orthogonal14: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/" target="_blank">the red house</a>, sofia (c)</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2014/04/views-from-systematic-reduction.html" target="_blank">systematic reduction</a>, the fridge, sofia (s)</p>
-				<p class="yearlist"><span class="year"></span><a href="http://ccnoa.org/30-30-Image-archive-project,23/" target="_blank">30/30 image archive project</a>, <a href="http://www.ccnoa.org/" target="_blank">ccnoa</a>, <a href="http://www.lookelisten.com/" target="_blank">look&amp;listen</a>, saint chamas, france</p>
-				<p class="yearlist"><span class="year"></span><a href="http://szepmuveszeti.hu/exhibitions/space-as-space-1366" target="_blank">space as space</a>, <a href="http://vasarely.hu/" target="_blank">vasarely museum</a>, budapest</p>
-				<p class="yearlist"><span class="year"></span>the untold abstraction, <a href="http://www.sbhart.com/en/" target="_blank">shipka 6 gallery</a>, sofia</p>
-				<p class="yearlist"><span class="year">2013</span><a href="http://www.nonsofia.org/2013/07/blog-post.html" target="_blank">quadrilateral 2013</a>, <a href="http://sghg.bg/" target="_blank">sofia city art gallery</a>, sofia (s)</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2013/02/orthogonal-in-burgas.html" target="_blank">orthogonal: the show</a>, burgas city art gallery, burgas, bulgaria (c)</p>
-				<p class="yearlist"><span class="year">2012</span><a href="http://ccnoa.org/30-30-Image-archive-project,23/" target="_blank">30/30 image archive project</a>, <a href="http://www.ccnoa.org/" target="_blank">ccnoa</a>, <a href="http://www.moinsun.com/" target="_blank">moins un gallery</a>, paris</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.orthogonal.bg" target="_blank">orthogonal12: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/" target="_blank">the red house</a>, sofia (c)</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2012/08/zero-growth.html" target="_blank">zero growth</a>, vladimir dimitrov – maystora art gallery, kyustendil, bulgaria (s)</p>
-				<p class="yearlist"><span class="year"></span>the collection. new acquisitions 2010 - 2011, <a href="http://sghg.bg/en/?page=sabitiq_nachalo" target="_blank">sofia city art gallery</a>, sofia</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.osas.hu/" target="_blank">osas</a> plus, <a href="http://vasarely.hu/" target="_blank">vasarely museum</a>, budapest, hungary</p>
-				<p class="yearlist"><span class="year">2011</span><a href="http://www.yvaa.net/index.php?country=10&page=award_info" target="_blank">baza award</a> nominations, <a href="http://sghg.bg/newsite/index.php?lg=en" target="_blank">sofia city art gallery</a>, sofia</p>
-				<p class="yearlist"><span class="year"></span>fresh concrete, <a href="http://www.parisconcret.org/" target="_blank">parisconcret</a>, paris, france</p>
-				<p class="yearlist"><span class="year"></span>annual exhibition of section 13, <a href="http://www.sbhart.com/en/" target="_blank">shipka 6 gallery</a>, sofia</p>
-				<p class="yearlist"><span class="year">2010</span>the big wave, 8th biennial of contemporary art, city art gallery, varna, bulgaria</p>
-				<p class="yearlist"><span class="year"></span>annual exhibition of section 13, industrialna 11 gallery, sofia</p>
-				<p class="yearlist"><span class="year"></span><a href="http://www.nonsofia.org/2010/05/gd-progress-vs-nature-contemporary-non.html" target="_blank">progress vs. nature: contemporary non-objective painting</a>, <a href="http://www.redhouse-sofia.org/" target="_blank">the red house</a>, sofia (s)</p>
-				<p class="yearlist"><span class="year"></span>boundary situation: the drawing in contemporary art, industrialna 11 gallery, sofia</p>
-                <p class="yearlist"><span class="year">2008</span>24-hour retrospective, <a href="http://www.atelie-plastelin.com/" target="_blank">plastelin</a>, sofia (s)</p>
-				<p class="yearlist"><span class="year">2007</span>bulgaria? ... oh, yeah, bucharest!, <a href="http://www.arttoday.org/site/news.php" target="_blank">center for contemporary art</a>, plovdiv, bulgaria</p>
-				<p class="yearlist"><span class="year"></span><a href="http://sofiaunderground.blogspot.com/" target="_blank">remember sofia underground!</a>, <a href="http://sbhart.com/" target="_blank">shipka 6 gallery</a>, sofia</p><br />
-
-			</div>
-        </div>
-	</body>
-</html>
+<p class="heading">selected exhibitions</p>
+{% for group in about.exhibitions %}
+  {% for item in group.items %}
+    {% if forloop.first %}
+<p class="yearlist"><span class="year">{{ group.year }}</span>{{ item }}</p>
+    {% else %}
+<p class="yearlist"><span class="year"></span>{{ item }}</p>
+    {% endif %}
+  {% endfor %}
+{% endfor %}

@@ -1,0 +1,13 @@
+# Contacts page content
+# Edit this file to update contact information.
+
+phone: "+359888240869"
+phone_display: "+359 888 240 869"
+
+links:
+  - label: e-mail
+    url: "mailto:larypsed@gmail.com"
+  - label: twitter
+    url: "https://twitter.com/nonsofia"
+  - label: vimeo
+    url: "https://vimeo.com/nonsofia/"

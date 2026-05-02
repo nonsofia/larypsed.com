@@ -1,0 +1,102 @@
+# Drawings gallery
+# Fields: slug, title, caption, file
+#
+# To add a new drawing:
+# 1. Upload the image to images/drawing/
+# 2. Add an entry below (newest first)
+# 3. Commit — the site rebuilds automatically
+
+- slug: od-1p
+  title: od/1p
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/1 od1p15.jpeg"
+
+- slug: oc-1v
+  title: oc/1v
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/2 oc1v15.jpeg"
+
+- slug: oc-2v
+  title: oc/2v
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/3 oc2v15.jpeg"
+
+- slug: oc-3v
+  title: oc/3v
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/4 oc3v15.jpeg"
+
+- slug: oc-4v
+  title: oc/4v
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/5 oc4v15.jpeg"
+
+- slug: oc-1d
+  title: oc/1d
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/6 oc1d15.jpeg"
+
+- slug: od-1c
+  title: od/1c
+  caption: "colour pencil/cardboard: 161 x 229 mm<br/>2015"
+  file: "images/drawing/7 od1c15.jpeg"
+
+- slug: od-pl
+  title: od/pl
+  caption: "colour pencil/paper: 208 x 294 mm<br/>2016"
+  file: "images/drawing/8 odpl16.jpeg"
+
+- slug: oc-1a
+  title: oc/1a
+  caption: "colour pencil/cardboard: 248 x 230 mm<br/>2016\u20132019"
+  file: "images/drawing/9 oc1a19.jpeg"
+
+- slug: oc-2a
+  title: oc/2a
+  caption: "colour pencil/cardboard: 249 x 238 mm<br/>2016\u20132019"
+  file: "images/drawing/10 oc2a19.jpeg"
+
+- slug: ot-1v
+  title: ot/1v
+  caption: "colour pencil/tracing paper: 210 x 294 mm<br/>2016\u20132019"
+  file: "images/drawing/11 ot1v19.jpeg"
+
+- slug: os-1v
+  title: os/1v
+  caption: "colour pencil/tracing paper: 209 x 293 mm<br/>2016\u20132019"
+  file: "images/drawing/13 os1v19.jpeg"
+
+- slug: os-2v
+  title: os/2v
+  caption: "colour pencil/tracing paper: 209 x 278 mm<br/>2016\u20132019"
+  file: "images/drawing/14 os2v19.jpeg"
+
+- slug: os-3v
+  title: os/3v
+  caption: "colour pencil/tracing paper: 121 x 208 mm<br/>2016\u20132019"
+  file: "images/drawing/15 os3v19.jpeg"
+
+- slug: oi-1a
+  title: oi/1a
+  caption: "colour pencil/cardboard: 246 x 229 mm<br/>2019"
+  file: "images/drawing/16 oi1a19.jpeg"
+
+- slug: oi-2a
+  title: oi/2a
+  caption: "colour pencil/cardboard: 249 x 231 mm<br/>2019"
+  file: "images/drawing/17 oi2a19.jpeg"
+
+- slug: oi-3a
+  title: oi/3a
+  caption: "colour pencil/cardboard: 249 x 233 mm<br/>2019"
+  file: "images/drawing/18 oi3a19.jpeg"
+
+- slug: oi-4a
+  title: oi/4a
+  caption: "colour pencil/cardboard: 249 x 237 mm<br/>2019"
+  file: "images/drawing/19 oi4a19.jpeg"
+
+- slug: oi-5a
+  title: oi/5a
+  caption: "colour pencil/cardboard: 249 x 233 mm<br/>2019"
+  file: "images/drawing/20 oi5a19.jpeg"

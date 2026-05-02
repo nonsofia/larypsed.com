@@ -1,0 +1,511 @@
+# Paintings gallery
+# Fields: slug, title, caption, file, thumb (optional — omit to use file as thumb), year
+#
+# To add a new painting:
+# 1. Upload the image to images/YYYY/
+# 2. Add an entry below (newest first)
+# 3. Commit — the site rebuilds automatically
+
+# 2019
+- slug: arithmetic-arcangle-gold
+  title: arithmetic arcangle gold
+  caption: "oil canvas 30 x 30 cm<br/>2019"
+  file: "images/2019/arithmetic arcangle gold 2019 oil canvas 30 x 30 cm.jpg"
+
+- slug: arcangle-silver
+  title: arcangle silver
+  caption: "oil canvas 30 x 30 cm<br/>2019"
+  file: "images/2019/arcangle silver 2019 oil canvas 30 x 30 cm.jpg"
+
+- slug: arcangle-aquablue
+  title: arcangle aquablue
+  caption: "oil canvas 30 x 30 cm<br/>2019"
+  file: "images/2019/arcangle aquablue 2019 oil canvas 30 x 30 cm.jpg"
+
+- slug: arcangle-aquared
+  title: arcangle aquared
+  caption: "oil canvas 30 x 30 cm<br/>2019"
+  file: "images/2019/arcangle aquared 2019 oil on canvas 30 x 30 cm.jpg"
+
+- slug: improvisation-gold
+  title: improvisation gold
+  caption: "oil canvas 30 x 30 cm<br/>2019"
+  file: "images/2019/improvisation gold 2019 oil canvas 30 x 30 cm.jpg"
+
+# 2018
+- slug: arcangle-gold-fossil
+  title: arcangle gold fossil
+  caption: "oil canvas 30 x 30 cm<br/>2018"
+  file: "images/2018/arcangle gold fossil 2018 oil canvas 30 x 30 cm.jpg"
+
+- slug: arithmetic-arcangle-80
+  title: "r\xB2 (\u03C0 \u2212 2) / 4 (arithmetic arcangle)"
+  caption: "oil/canvas: 80 x 80 cm<br/>2018"
+  file: "images/2018/arithmetic arcangle 2018 oil on canvas 80 x 80 cm.jpg"
+
+# 2017
+- slug: arithmetic-arcangle
+  title: arithmetic arcangle
+  caption: "oil/canvas: 30 x 30 cm<br/>2017"
+  file: "images/2017/arithmetic arcangle 2017 oil on canvas 30 x 30 cm s.jpg"
+
+- slug: arcangle
+  title: arcangle
+  caption: "oil/canvas: 40 x 40 cm<br/>2017"
+  file: "images/2017/arcangle 2017 oil on canvas 40 x 40 cm s.jpg"
+
+# 2016
+- slug: orthogonal-composition-a-plus-b-minus-b
+  title: "orthogonal composition (a+b\u2212b)"
+  caption: "oil/canvas: 141 cm / diagonal<br/>2016"
+  file: "images/2016/1 16.jpg"
+
+- slug: orthogonal-composition-a-plus-b-minus-a
+  title: "orthogonal composition (a+b\u2212a)"
+  caption: "oil/canvas: 141 cm / diagonal<br/>2016"
+  file: "images/2016/2 16.jpg"
+
+- slug: orthogonal-composition-road-balance
+  title: orthogonal composition (road balance)
+  caption: "oil/canvas: 141 cm / diagonal<br/>2016"
+  file: "images/2016/3 16.jpg"
+
+- slug: orthogonal-composition-diamond-progression
+  title: orthogonal composition (diamond progression)
+  caption: "oil/canvas: 141 cm / diagonal<br/>2015\u20132016"
+  file: "images/2016/4 16.jpg"
+
+- slug: orthogonal-composition-tondo-a-plus-b
+  title: orthogonal composition (tondo a+b)
+  caption: "oil/canvas: 60 cm<br/>2016"
+  file: "images/2016/7 16.jpg"
+
+- slug: orthogonal-composition-tondo-a
+  title: orthogonal composition (tondo a)
+  caption: "oil/canvas: 60 cm<br/>2015\u20132016"
+  file: "images/2016/5 15 16.jpg"
+
+- slug: orthogonal-composition-tondo-b
+  title: orthogonal composition (tondo b)
+  caption: "oil/canvas: 60 cm<br/>2016"
+  file: "images/2016/6 16.jpg"
+
+# 2015
+- slug: orthogonal-system-quadriptych
+  title: orthogonal system (quadriptych)
+  caption: "oil/canvas: 145 x 145 cm<br/>2015"
+  file: "images/2015/orthogonal system 2015 quadriptych.jpg"
+
+- slug: orthogonal-composition-2015
+  title: orthogonal composition
+  caption: "oil/canvas: 113 cm / diagonal<br/>2015"
+  file: "images/2015/3 15.jpg"
+
+# 2013
+- slug: static-white
+  title: static white
+  caption: "oil/canvas: 141 cm / diagonal<br/>2013"
+  file: "images/2013/static white 141 cm 2013.jpg"
+  thumb: "images/2013/static white 141 cm 2013-thumb.jpg"
+
+- slug: dynamic-white
+  title: dynamic white
+  caption: "oil/canvas: 141 cm / diagonal<br/>2013"
+  file: "images/2013/dynamic white 141 cm 2013.jpg"
+  thumb: "images/2013/dynamic white 141 cm 2013-thumb.jpg"
+
+- slug: white-circle
+  title: white circle
+  caption: "oil/canvas: 85 cm / diagonal<br/>2013"
+  file: "images/2013/white circle 85 cm 2013.jpg"
+  thumb: "images/2013/white circle 85 cm 2013-thumb.jpg"
+
+- slug: spiral-in-white
+  title: spiral in white
+  caption: "oil/canvas: 85 cm / diagonal<br/>2013"
+  file: "images/2013/spiral in white 85 cm 2013.jpg"
+  thumb: "images/2013/spiral in white 85 cm 2013-thumb.jpg"
+
+- slug: tribute-to-max-bill-i
+  title: tribute to max bill i
+  caption: "oil/canvas: 141 cm / diagonal<br/>2013"
+  file: "images/2013/tribute to max bill i 141 cm 2013.jpg"
+  thumb: "images/2013/tribute to max bill i 141 cm 2013-thumb.jpg"
+
+- slug: tribute-to-max-bill-ii
+  title: tribute to max bill ii
+  caption: "oil/canvas: 141 cm / diagonal<br/>2013"
+  file: "images/2013/tribute to max bill ii 141 cm 2013.jpg"
+  thumb: "images/2013/tribute to max bill ii 141 cm 2013-thumb.jpg"
+
+- slug: statics
+  title: statics
+  caption: "oil/canvas: 113 cm / diagonal<br/>2013"
+  file: "images/2013/statics 113 cm 2013.jpg"
+  thumb: "images/2013/statics 113 cm 2013-thumb.jpg"
+
+- slug: dynamics
+  title: dynamics
+  caption: "oil/canvas: 113 cm / diagonal<br/>2013"
+  file: "images/2013/dynamics 113 cm 2013.jpg"
+  thumb: "images/2013/dynamics 113 cm 2013-thumb.jpg"
+
+# 2012
+- slug: the-fossil-series-blue
+  title: "the fossil series: blue"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series blue 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series blue 48 x 48 cm 2011 2012-thumb.jpg"
+
+- slug: the-fossil-series-green
+  title: "the fossil series: green"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series green 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series green 48 x 48 cm 2011 2012-thumb.jpg"
+
+- slug: the-fossil-series-yellow
+  title: "the fossil series: yellow"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series yellow 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series yellow 48 x 48 cm 2011 2012-thumb.jpg"
+
+- slug: the-fossil-series-orange
+  title: "the fossil series: orange"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series orange 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series orange 48 x 48 cm 2011 2012-thumb.jpg"
+
+- slug: the-fossil-series-red
+  title: "the fossil series: red"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series red 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series red 48 x 48 cm 2011 2012-thumb.jpg"
+
+- slug: the-fossil-series-white
+  title: "the fossil series: white"
+  caption: "oil/canvas: 48 x 48 cm<br/>2011\u20132012"
+  file: "images/2012/the fossil series white 48 x 48 cm 2011 2012.jpg"
+  thumb: "images/2012/the fossil series white 48 x 48 cm 2011 2012-thumb.jpg"
+
+# 2011
+- slug: probalance-1
+  title: probalance fragment I
+  caption: "oil/canvas: 62.5 x 62.5 cm<br/>2010\u20132011"
+  file: "images/2011/probalance-fragment-1.jpg"
+  thumb: "images/2011/probalance-fragment-1-thumb.gif"
+
+- slug: probalance-2
+  title: probalance fragment II
+  caption: "oil/canvas: 62.5 x 62.5 cm<br/>2010\u20132011"
+  file: "images/2011/probalance-fragment-2.jpg"
+  thumb: "images/2011/probalance-fragment-2-thumb.gif"
+
+- slug: equilibrium-in-white
+  title: dynamic equilibrium in white
+  caption: "oil/canvas: 80 x 80 cm<br/>2011"
+  file: "images/2011/equilibrium in white 80 x 80 cm 2011.jpg"
+  thumb: "images/2011/equilibrium in white 80 x 80 cm 2011-thumb.jpg"
+
+- slug: equilibrium-in-black-and-white
+  title: dynamic equilibrium in black and white
+  caption: "oil/canvas: 80 x 80 cm<br/>2011"
+  file: "images/2011/equilibrium in black and white 80 x 80 cm 2011.jpg"
+  thumb: "images/2011/equilibrium in black and white 80 x 80 cm 2011-thumb.jpg"
+
+- slug: superficial-balance-I
+  title: superficial balance I
+  caption: "oil/canvas: 86 x 86 cm<br/>2011"
+  file: "images/2011/superficial balance I 86 x 86 cm 2011.jpg"
+  thumb: "images/2011/superficial balance I 86 x 86 cm 2011-thumb.jpg"
+
+- slug: superficial-balance-II
+  title: superficial balance II
+  caption: "oil/canvas: 86 x 86 cm<br/>2011"
+  file: "images/2011/superficial balance II 86 x 86 cm 2011.jpg"
+  thumb: "images/2011/superficial balance II 86 x 86 cm 2011-thumb.jpg"
+
+- slug: superficial-disharmony-I
+  title: superficial disharmony I
+  caption: "oil/canvas: 88 x 88 cm<br/>2011"
+  file: "images/2011/superficial disharmony I 88 x 88 cm 2011.jpg"
+  thumb: "images/2011/superficial disharmony I 88 x 88 cm 2011-thumb.jpg"
+
+- slug: superficial-disharmony-II
+  title: superficial disharmony II
+  caption: "oil/canvas: 88 x 88 cm<br/>2011"
+  file: "images/2011/superficial disharmony II 88 x 88 cm 2011.jpg"
+  thumb: "images/2011/superficial disharmony II 88 x 88 cm 2011-thumb.jpg"
+
+- slug: where-you-and-i-begin-and-end-triptych
+  title: "where you and i begin and end \xB7 triptych"
+  caption: "oil/canvas: 100 x 240 cm<br/>2011"
+  file: "images/2011/where you and i begin and end triptych 100 x 240 cm.jpg"
+  thumb: "images/2011/where you and i begin and end triptych 100 x 240 cm-thumb.jpg"
+
+- slug: straight-line-within-a-circle
+  title: "straight line within a circle: progress behind the bars of equilibrium"
+  caption: "oil/canvas: 86 x 86 cm<br/>2011"
+  file: "images/2011/straight line within a circle progress behind the bars of equilibrium 86 x 86 cm 2011.jpg"
+  thumb: "images/2011/straight line within a circle progress behind the bars of equilibrium 86 x 86 cm 2011-thumb.jpg"
+
+# 2010
+- slug: cross
+  title: cross
+  caption: "oil/canvas: 90 x 90 cm<br/>2010"
+  file: "images/2010/cross.jpg"
+  thumb: "images/2010/cross-thumb.gif"
+
+- slug: arcline
+  title: arcline
+  caption: "oil/canvas: 90 x 90 cm<br/>2010"
+  file: "images/2010/arcline.jpg"
+  thumb: "images/2010/arcline-thumb.gif"
+
+- slug: arcline-detail-1
+  title: arcline detail
+  caption: "oil/canvas: 40 x 40 cm<br/>2010"
+  file: "images/2010/arcline-detail-1.jpg"
+  thumb: "images/2010/arcline-detail-1-thumb.gif"
+
+- slug: arcline-detail-2
+  title: arcline detail
+  caption: "oil/canvas: 40 x 40 cm<br/>2010"
+  file: "images/2010/arcline-detail-2.jpg"
+  thumb: "images/2010/arcline-detail-2-thumb.gif"
+
+- slug: counter-circle
+  title: counter-circle
+  caption: "oil/canvas: 42 x 42 cm<br/>2009\u20132010"
+  file: "images/2010/counter-circle.jpg"
+  thumb: "images/2010/counter-circle-thumb.gif"
+
+- slug: self-tribute
+  title: self-tribute
+  caption: "oil/canvas: 86 x 85.5 cm<br/>2010"
+  file: "images/2010/self-tribute.jpg"
+  thumb: "images/2010/self-tribute-thumb.gif"
+
+- slug: tribute-to-rpl
+  title: tribute to r.p.l.
+  caption: "oil/canvas: 86 x 86 cm<br/>2010"
+  file: "images/2010/tribute-to-rpl.jpg"
+  thumb: "images/2010/tribute-to-rpl-thumb.gif"
+
+- slug: circles-in-a-spiral
+  title: circles in a spiral
+  caption: "oil/canvas: 78.5 x 78.5 cm<br/>2010"
+  file: "images/2010/circles-in-a-spiral.jpg"
+  thumb: "images/2010/circles-in-a-spiral-thumb.gif"
+
+- slug: b-w-21-15
+  title: "b : w = 21 : 15"
+  caption: "oil/canvas: 78.5 x 78.5 cm<br/>2010"
+  file: "images/2010/b-w-21-15.jpg"
+  thumb: "images/2010/b-w-21-15-thumb.gif"
+
+- slug: four-circles-four-spheres
+  title: geometric landscape of four circles and four spheres
+  caption: "oil/canvas: 85 x 85 cm<br/>2010"
+  file: "images/2010/four-circles-four-spheres.jpg"
+  thumb: "images/2010/four-circles-four-spheres-thumb.gif"
+
+- slug: two-circles-four-spheres
+  title: geometric landscape of two circles and four spheres
+  caption: "oil/canvas: 85 x 85 cm<br/>2010"
+  file: "images/2010/two-circles-four-spheres.jpg"
+  thumb: "images/2010/two-circles-four-spheres-thumb.gif"
+
+- slug: 1-2-4-2-1-var1
+  title: "12421 variation I"
+  caption: "oil/canvas: 90 x 90 cm<br/>2010"
+  file: "images/2010/1-2-4-2-1-var1.jpg"
+  thumb: "images/2010/1-2-4-2-1-var1-thumb.gif"
+
+- slug: 1-2-4-2-1-var2
+  title: "12421 variation II"
+  caption: "oil/canvas: 90 x 90 cm<br/>2010"
+  file: "images/2010/1-2-4-2-1-var2.jpg"
+  thumb: "images/2010/1-2-4-2-1-var2-thumb.gif"
+
+# 2009
+- slug: emulation
+  title: emulation
+  caption: "oil/canvas: 85 x 85 cm<br/>2009"
+  file: "images/2009/emulation.jpg"
+  thumb: "images/2009/emulation-thumb.gif"
+
+- slug: progression
+  title: progression
+  caption: "oil/canvas: 60 x 60 cm<br/>2008\u20132009"
+  file: "images/2009/progression.jpg"
+  thumb: "images/2009/progression-thumb.gif"
+
+- slug: counter-progression
+  title: counter-progression
+  caption: "oil/canvas: 60.5 x 60 cm<br/>2008\u20132009"
+  file: "images/2009/counter-progression.jpg"
+  thumb: "images/2009/counter-progression-thumb.gif"
+
+- slug: portrait-of-gk
+  title: "zig zag progression: portrait of g.k."
+  caption: "oil/canvas: 60.5 x 60.5 cm<br/>2009"
+  file: "images/2009/portrait-of-gk.jpg"
+  thumb: "images/2009/portrait-of-gk-thumb.gif"
+
+- slug: fragment-universal-pattern
+  title: fragment of the universal pattern
+  caption: "oil/canvas: 666 x 666 mm<br/>2006\u20132009"
+  file: "images/2009/fragment-universal-pattern.jpg"
+  thumb: "images/2009/fragment-universal-pattern-thumb.gif"
+
+- slug: 1-2-4-2-1
+  title: "1 \u22C5 2 \u22C5 4 \u22C5 2 \u22C5 1: simplified geometric progression, closed within a circle"
+  caption: "oil/canvas: 80 x 80 cm<br/>2009"
+  file: "images/2009/1-2-4-2-1.jpg"
+  thumb: "images/2009/1-2-4-2-1-thumb.gif"
+
+- slug: 1-2-4-2-1-mono
+  title: "1 \u22C5 2 \u22C5 4 \u22C5 2 \u22C5 1: geometric progression, closed within a circle"
+  caption: "oil/canvas: 80 x 80 cm<br/>2009"
+  file: "images/2009/1-2-4-2-1-mono.jpg"
+  thumb: "images/2009/1-2-4-2-1-mono-thumb.gif"
+
+- slug: 1-3-9-3-1
+  title: "1 \u22C5 3 \u22C5 9 \u22C5 3 \u22C5 1: simplified geometric progression, closed within a circle"
+  caption: "oil/canvas: 80 x 80 cm<br/>2009"
+  file: "images/2009/1-3-9-3-1.jpg"
+  thumb: "images/2009/1-3-9-3-1-thumb.gif"
+
+- slug: 1-3-9-3-1-mono
+  title: "1 \u22C5 3 \u22C5 9 \u22C5 3 \u22C5 1: geometric progression, closed within a circle"
+  caption: "oil/canvas: 80 x 80 cm<br/>2009"
+  file: "images/2009/1-3-9-3-1-mono.jpg"
+  thumb: "images/2009/1-3-9-3-1-mono-thumb.gif"
+
+- slug: 1-1-1-1-1
+  title: "1 \u22C5 1 \u22C5 1 \u22C5 1 \u22C5 1: spircle (both a spiral and a circle)"
+  caption: "oil/canvas: 40 x 40 cm<br/>2009"
+  file: "images/2009/1-1-1-1-1.jpg"
+  thumb: "images/2009/1-1-1-1-1-thumb.gif"
+
+- slug: realistic-triptych
+  title: "realistic triptych: composition with two circular arcs and two intersecting straight lines"
+  caption: "oil/canvas: 45 x 135 cm<br/>2008\u20132009"
+  file: "images/2009/triptych.jpg"
+  thumb: "images/2009/triptych-thumb.gif"
+
+- slug: horizon
+  title: "horizon: horizontal composition of five vertical elements"
+  caption: "oil/canvas: 51 x 51 cm<br/>2009"
+  file: "images/2009/horizon.jpg"
+  thumb: "images/2009/horizon-thumb.gif"
+
+- slug: jungle-bay
+  title: jungle bay
+  caption: "oil/canvas: 26 x 27 cm<br/>2009"
+  file: "images/2009/jungle-bay.jpg"
+  thumb: "images/2009/jungle-bay-thumb.gif"
+
+- slug: titanium-white
+  title: titanium white
+  caption: "oil/canvas: 52 x 52.5 cm<br/>2009"
+  file: "images/2009/titanium-white.jpg"
+  thumb: "images/2009/titanium-white-thumb.gif"
+
+# 2008
+- slug: green
+  title: green
+  caption: "oil/canvas: 55 x 55 cm<br/>2008"
+  file: "images/2008/green.jpg"
+  thumb: "images/2008/green-thumb.gif"
+
+- slug: red
+  title: red
+  caption: "oil/canvas: 51 x 51 cm<br/>2008"
+  file: "images/2008/red.jpg"
+  thumb: "images/2008/red-thumb.gif"
+
+- slug: brown
+  title: brown
+  caption: "oil/canvas: 51 x 51 cm<br/>2008"
+  file: "images/2008/brown.jpg"
+  thumb: "images/2008/brown-thumb.gif"
+
+- slug: yellow
+  title: yellow
+  caption: "oil/canvas: 46 x 46 cm<br/>2008"
+  file: "images/2008/yellow.jpg"
+  thumb: "images/2008/yellow-thumb.gif"
+
+- slug: proron-blue
+  title: proron blue
+  caption: "oil/canvas: 58 x 58 cm<br/>2008"
+  file: "images/2008/proron-blue.jpg"
+  thumb: "images/2008/proron-blue-thumb.gif"
+
+- slug: jc-black
+  title: j.c. black
+  caption: "oil/canvas: 47 x 46 cm<br/>2008"
+  file: "images/2008/jc-black.jpg"
+  thumb: "images/2008/jc-black-thumb.gif"
+
+- slug: greenstructivist
+  title: greenstructivist composition
+  caption: "oil/canvas: 16 x 21.5 cm<br/>2008"
+  file: "images/2008/greenstruct.jpg"
+  thumb: "images/2008/greenstruct-thumb.gif"
+
+- slug: missing-deep-blue
+  title: the missing deep blue
+  caption: "oil/canvas: 50 x 50 cm<br/>2008"
+  file: "images/2008/missing-deep-blue.jpg"
+  thumb: "images/2008/missing-deep-blue-thumb.gif"
+
+- slug: composition-green-blue
+  title: composition with green and blue
+  caption: "oil/canvas: 37 x 43 cm<br/>2007\u20132008"
+  file: "images/2008/composition-green-blue.jpg"
+  thumb: "images/2008/composition-green-blue-thumb.gif"
+
+- slug: composition-orange-green
+  title: composition with orange and green
+  caption: "oil/canvas: 70 x 80 cm<br/>2008"
+  file: "images/2008/composition-orange-green.jpg"
+  thumb: "images/2008/composition-orange-green-thumb.gif"
+
+- slug: fellowship
+  title: "fellowship: an example of human nature"
+  caption: "oil/canvas: 90 x 120 cm<br/>2004\u20132008"
+  file: "images/2008/fellowship.jpg"
+  thumb: "images/2008/fellowship-thumb.gif"
+
+- slug: fellowship-fragment
+  title: fragment of the fellowship
+  caption: "oil/canvas: 20 x 20 cm<br/>2004\u20132008"
+  file: "images/2008/fellowship-fragment.jpg"
+  thumb: "images/2008/fellowship-fragment-thumb.gif"
+
+- slug: the-limit-of-modernity
+  title: the limit of modernity
+  caption: "oil/canvas: 128 x 92 cm<br/>2004\u20132008"
+  file: "images/2008/the-limit-of-modernity.jpg"
+  thumb: "images/2008/the-limit-of-modernity-thumb.gif"
+
+# earlier
+- slug: darry-white
+  title: darry white
+  caption: "oil/canvas: 21 x 21.5 cm<br/>2007"
+  file: "images/earlier/darry-white.jpg"
+  thumb: "images/earlier/darry-white-thumb.gif"
+
+- slug: fill-square
+  title: "can yOu please fILl in my square for me?"
+  caption: "oil/canvas: 30 x 31 cm<br/>2006\u20132007"
+  file: "images/earlier/fill-square.jpg"
+  thumb: "images/earlier/fill-square-thumb.gif"
+
+- slug: balance
+  title: balance
+  caption: "oil/canvas: 30 x 40 cm<br/>ca. 2000"
+  file: "images/earlier/balance.jpg"
+  thumb: "images/earlier/balance-thumb.gif"

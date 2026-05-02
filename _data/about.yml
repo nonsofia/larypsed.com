@@ -1,0 +1,95 @@
+# About page content
+# Edit this file to update the bio and exhibition/activity lists.
+# HTML is supported in all text fields.
+#
+# Each year entry has a `year` key and an `items` list.
+# Add as many items as needed under a year — no empty year stubs required.
+
+bio:
+  - "born 1980, burgas, bulgaria"
+  - 'ba, <a href="http://www.victoria.ac.nz/">vuw</a>, new zealand'
+  - "lives and works in sofia, bulgaria"
+
+activities:
+  - year: 2012
+    items:
+      - 'founder of <a href="http://www.orthogonal.bg">orthogonal: international forum for non-objective art</a>'
+      - 'member of the <a href="http://www.sbhart.com/en">union of bulgarian artists</a>'
+  - year: 2010
+    items:
+      - 'founder of <a href="http://www.nonsofia.org">nonsofia</a>, non-profit platform for constructive art in bulgaria'
+  - year: 2008
+    items:
+      - '<a href="http://ruf-award.org/">gaudenz b. ruf award for new bulgarian art</a>, award coordinator'
+
+exhibitions:
+  - year: 2021
+    items:
+      - '<a href="http://www.nonsofia.org/2021/03/beyond-horizon-doza-gallery-sofia.html">beyond the horizon</a>, <a href="https://www.facebook.com/dozagallery/">doza gallery</a>, sofia (c)'
+      - 'boundary situation 2: the drawing in contemporary art, <a href="https://www.facebook.com/nbu.uniart/">uniart gallery</a>, sofia'
+  - year: 2020
+    items:
+      - '<a href="https://www.youtube.com/watch?v=IzTCnqJhKBk&feature=youtu.be">konstruktiv.ist 2: art+mathematics</a>, virtual exhibition'
+      - '<a href="https://www.youtube.com/watch?v=UUb0mL8WzNU">konstruktiv.ist 1</a>, virtual exhibition'
+      - '<a href="http://www.nonsofia.org/2020/11/beyond-horizon-new-burgas.html">beyond the horizon: new burgas</a>, national academy of art, burgas (c)'
+      - '<a href="http://www.nonsofia.org/2020/08/beyond-horizon-varna-city-art-gallery.html">beyond the horizon</a>, <a href="http://varnacityartgallery.com/">city art gallery</a>, varna (c)'
+  - year: 2019
+    items:
+      - '<a href="https://www.facebook.com/media/set/?vanity=haromhet&set=a.2654794214582819">concrete space 1</a>, <a href="http://www.haromhet.hu/">h&aacute;rom h&eacute;t gal&eacute;ria</a>, budapest'
+      - '<a href="http://www.nonsofia.org/2019/08/views-from-orthogonal18-export-2.html">orthogonal18: export 2</a>, city art gallery, burgas (c)'
+      - '<a href="https://photos.app.goo.gl/vVzGLjNnyhK7eu6q6">absolute love</a>, <a href="http://www.haromhet.hu">h&aacute;rom h&eacute;t gal&eacute;ria</a>, budapest (s)'
+  - year: 2018
+    items:
+      - '<a href="http://orthogonal.bg/">orthogonal18: export 1</a>, <a href="http://kunsthaus-rehau.de">ikkp kunsthaus rehau</a>, germany (c)'
+      - '<a href="http://angus-hughes.org/THE-CELLAR-GALLERY">the momentum</a>, <a href="http://www.saturationpoint.org.uk/">saturation point</a> / <a href="http://angus-hughes.org/">angus-hughes gallery</a>, london, uk'
+  - year: 2017
+    items:
+      - '<a href="http://bruchunddallas.de/2017/billy/">rnpg: europa</a>, <a href="http://bruchunddallas.de/">bruch und dallas</a>, cologne, germany'
+      - '<a href="https://mtariicrisurilor.ro/expozitia-arta-concreta-geometrica-colectia-ingo-glass/">arta concret&abreve; &ndash; geometric&abreve;: col&eogon;ia ingo glass</a>, <a href="https://mtariicrisurilor.ro/">muzeul t&abreve;rii cri&scedil;urilor</a>, romania'
+      - '<a href="http://mailchi.mp/eafa53563760/invitation-opening-assemblage-no-4-van-doesburg-fanclub-6-june-from-5-7pm-amsterdam-concrete-concrete-store-spuistraat-250-amsterdam?e=f773e0d484">van doesburg fanclub</a>, <a href="http://www.agns.nl/">agns</a>/<a href="http://www.modernartprojects.org/">map</a>/<a href="http://www.is-projects.org/">is-p</a>, <a href="https://concrete.nl/">amsterdam concrete</a>, the netherlands'
+      - '<a href="http://www.orthogonal.bg">orthogonal16: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/">the red house</a>, sofia (c)'
+  - year: 2016
+    items:
+      - 'grid, xs gallery, institute of fine arts, jan kochanowski university, kielce, poland'
+  - year: 2015
+    items:
+      - '<a href="http://viennacontemporary.at">viennacontemporary</a>, <a href="http://www.viennacontemporary.at/en/focus-bulgaria/">focus bulgaria</a>, vienna, austria'
+      - '<a href="http://www.imagomundiart.com/exhibitions/map-new-art-0">imago mundi: map of the new art</a>, <a href="http://www.cini.it/en">fondazione cini</a>, venice, italy'
+      - '<a href="http://www.nonsofia.org/2015/07/colour-sound-movement.html">colour - sound - movement</a>, <a href="http://credobonum.bg">credo gallery</a>, sofia'
+      - '<a href="http://www.orthogonal.bg">orthogonal14: the black sea edition</a>, <a href="http://www.contemporaryspace.bg/">contemporary space</a>, varna (c)'
+  - year: 2014
+    items:
+      - '<a href="http://www.orthogonal.bg">orthogonal14: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/">the red house</a>, sofia (c)'
+      - '<a href="http://www.nonsofia.org/2014/04/views-from-systematic-reduction.html">systematic reduction</a>, the fridge, sofia (s)'
+      - '<a href="http://ccnoa.org/30-30-Image-archive-project,23/">30/30 image archive project</a>, <a href="http://www.ccnoa.org/">ccnoa</a>, <a href="http://www.lookelisten.com/">look&amp;listen</a>, saint chamas, france'
+      - '<a href="http://szepmuveszeti.hu/exhibitions/space-as-space-1366">space as space</a>, <a href="http://vasarely.hu/">vasarely museum</a>, budapest'
+      - 'the untold abstraction, <a href="http://www.sbhart.com/en/">shipka 6 gallery</a>, sofia'
+  - year: 2013
+    items:
+      - '<a href="http://www.nonsofia.org/2013/07/blog-post.html">quadrilateral 2013</a>, <a href="http://sghg.bg/">sofia city art gallery</a>, sofia (s)'
+      - '<a href="http://www.nonsofia.org/2013/02/orthogonal-in-burgas.html">orthogonal: the show</a>, burgas city art gallery, burgas, bulgaria (c)'
+  - year: 2012
+    items:
+      - '<a href="http://ccnoa.org/30-30-Image-archive-project,23/">30/30 image archive project</a>, <a href="http://www.ccnoa.org/">ccnoa</a>, <a href="http://www.moinsun.com/">moins un gallery</a>, paris'
+      - '<a href="http://www.orthogonal.bg">orthogonal12: international forum for non-objective art</a>, <a href="http://www.redhouse-sofia.org/">the red house</a>, sofia (c)'
+      - '<a href="http://www.nonsofia.org/2012/08/zero-growth.html">zero growth</a>, vladimir dimitrov &ndash; maystora art gallery, kyustendil, bulgaria (s)'
+      - 'the collection. new acquisitions 2010 - 2011, <a href="http://sghg.bg/en/?page=sabitiq_nachalo">sofia city art gallery</a>, sofia'
+      - '<a href="http://www.osas.hu/">osas</a> plus, <a href="http://vasarely.hu/">vasarely museum</a>, budapest, hungary'
+  - year: 2011
+    items:
+      - '<a href="http://www.yvaa.net/index.php?country=10&page=award_info">baza award</a> nominations, <a href="http://sghg.bg/newsite/index.php?lg=en">sofia city art gallery</a>, sofia'
+      - 'fresh concrete, <a href="http://www.parisconcret.org/">parisconcret</a>, paris, france'
+      - 'annual exhibition of section 13, <a href="http://www.sbhart.com/en/">shipka 6 gallery</a>, sofia'
+  - year: 2010
+    items:
+      - 'the big wave, 8th biennial of contemporary art, city art gallery, varna, bulgaria'
+      - 'annual exhibition of section 13, industrialna 11 gallery, sofia'
+      - '<a href="http://www.nonsofia.org/2010/05/gd-progress-vs-nature-contemporary-non.html">progress vs. nature: contemporary non-objective painting</a>, <a href="http://www.redhouse-sofia.org/">the red house</a>, sofia (s)'
+      - 'boundary situation: the drawing in contemporary art, industrialna 11 gallery, sofia'
+  - year: 2008
+    items:
+      - '24-hour retrospective, <a href="http://www.atelie-plastelin.com/">plastelin</a>, sofia (s)'
+  - year: 2007
+    items:
+      - 'bulgaria? ... oh, yeah, bucharest!, <a href="http://www.arttoday.org/site/news.php">center for contemporary art</a>, plovdiv, bulgaria'
+      - '<a href="http://sofiaunderground.blogspot.com/">remember sofia underground!</a>, <a href="http://sbhart.com/">shipka 6 gallery</a>, sofia'

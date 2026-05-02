@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{% if page.title %}larypsed - {{ page.title }}{% else %}larypsed{% endif %}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="stylesheet" href="/css/main.css" />
+  {% if page.external_links_blank %}<base target="_blank">{% endif %}
+</head>
+<body>
+  <div id="container">
+    <h1><a href="/">georgi dimitrov</a></h1>
+    <nav id="sitenav">
+      {% include nav.html %}
+    </nav>
+    <main id="main-content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+title: larypsed
+description: georgi dimitrov — constructive / non-objective art
+url: "https://larypsed.com"
+baseurl: ""
+
+# Exclude files Jekyll shouldn't process or publish
+exclude:
+  - genlist.pl
+  - "template-*.xml"
+  - old_index.html
+  - paintings.html
+  - graphics.html
+  - links.html
+  - README.md
+
+# Disable Sass compression warning
+sass:
+  quiet_deps: true

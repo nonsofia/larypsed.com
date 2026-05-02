@@ -1,0 +1,11 @@
+{% assign current = page.url | remove: '/' | remove: '.html' %}
+<a href="/about.html" target="_self"{% if current == 'about' %} class="nav-selected" aria-current="page"{% endif %}>about</a>
+<a href="/painting.html" target="_self"{% if current == 'painting' %} class="nav-selected" aria-current="page"{% endif %}>painting</a>
+<a href="/drawing.html" target="_self"{% if current == 'drawing' %} class="nav-selected" aria-current="page"{% endif %}>drawing</a>
+<a href="/space.html" target="_self"{% if current == 'space' %} class="nav-selected" aria-current="page"{% endif %}>space</a>
+<a href="http://larypsed.blogspot.com/" target="_blank" rel="noopener">current</a>
+<span class="menu-contacts">
+  <a href="http://nonsofia.org/" target="_blank" rel="noopener">nonsofia</a>
+  <a href="http://orthogonal.bg/" target="_blank" rel="noopener">orthogonal</a>
+</span>
+<a href="/contacts.html" target="_self"{% if current == 'contacts' %} class="nav-selected" aria-current="page"{% endif %}>contacts</a>

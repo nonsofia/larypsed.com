@@ -1,0 +1,27 @@
+# Space / installation gallery
+# Fields: slug, title, caption (supports HTML for links), file
+#
+# To add a new installation view:
+# 1. Upload the image to images/space/
+# 2. Add an entry below
+# 3. Commit — the site rebuilds automatically
+
+- slug: quadrilateral-13-3
+  title: quadrilateral 2013 — installation view 1
+  caption: '<a href="http://www.nonsofia.org/2013/07/blog-post.html">quadrilateral 2013</a>, sofia city art gallery (installation view 1)'
+  file: "images/space/quadrilateral 13 3.jpg"
+
+- slug: quadrilateral-13-2
+  title: quadrilateral 2013 — installation view 2
+  caption: '<a href="http://www.nonsofia.org/2013/07/blog-post.html">quadrilateral 2013</a>, sofia city art gallery (installation view 2)'
+  file: "images/space/quadrilateral 13 2.jpg"
+
+- slug: quadrilateral-13-1
+  title: quadrilateral 2013 — installation view 3
+  caption: '<a href="http://www.nonsofia.org/2013/07/blog-post.html">quadrilateral 2013</a>, sofia city art gallery (installation view 3)'
+  file: "images/space/quadrilateral 13 1.jpg"
+
+- slug: quadrilateral-13-0
+  title: quadrilateral 2013 — installation view 4
+  caption: '<a href="http://www.nonsofia.org/2013/07/blog-post.html">quadrilateral 2013</a>, sofia city art gallery (installation view 4)'
+  file: "images/space/quadrilateral 13 0.jpg"

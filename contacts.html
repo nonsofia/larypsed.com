@@ -1,31 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>larypsed - contacts</title>
-		<link rel="stylesheet" href="css/general.css" type="text/css" />
-		<!--[if IE]> <link rel="stylesheet" href="css/ie.css" type="text/css" /> <![endif]-->
-	</head>
-	<body>
-		<div id="container">
-			<h1><a href="index.html">georgi dimitrov</a></h1>
-			<div id="sitenav">
-				<a href="about.html">about</a> <br />
-				<a href="painting.html">painting</a> <br />
-                <a href="drawing.html">drawing</a> <br />
-				<a href="space.html" >space</a> <br />
-				<a href="http://larypsed.blogspot.com/">current</a> <br />
-                <div class="menu-contacts">
-                    <a href="http://nonsofia.org/">nonsofia</a> <br />
-    				<a href="http://orthogonal.bg/">orthogonal</a> <br />
-                </div>
-				<a class="nav-selected">contacts</a> <br />
-			</div>
+---
+layout: text
+title: contacts
+permalink: /contacts.html
+---
+{% assign c = site.data.contacts %}
 
-			<div id="text-content">
-                <p><a href="tel:+359%2088%20824%200869" value="+359888240869" target="_blank">+359888240869</a></p>
-                <p><a href="mailto:larypsed@gmail.com" target="_blank">e-mail</a>&nbsp;|&nbsp;<a href="https://twitter.com/nonsofia" target="_blank">twitter</a>&nbsp;|&nbsp;<a href="https://vimeo.com/nonsofia/" target="_blank" >vimeo</a></p>
-			</div>
-        </div>
-	</body>
-</html>
+<p class="contacts-phone"><a href="tel:{{ c.phone }}">{{ c.phone_display }}</a></p>
+<p class="contacts-links">
+{% for link in c.links %}
+  {% unless forloop.first %}<span class="sep">|</span>{% endunless %}
+  <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+{% endfor %}
+</p>
