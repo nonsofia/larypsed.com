@@ -119,6 +119,7 @@ h1 a:hover {
       "hero    hero"
       "nav     content";
     column-gap: 24px;
+    max-width: 571px; /* match hero image max-width */
   }
 
   .is-homepage h1             { grid-area: title; }
