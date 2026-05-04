@@ -9,7 +9,7 @@
   {% if page.external_links_blank %}<base target="_blank">{% endif %}
 </head>
 <body>
-  <div id="container">
+  <div id="container"{% if page.url == '/' or page.url == '/index.html' %} class="is-homepage"{% endif %}>
     <h1><a href="/">georgi dimitrov</a></h1>
     <nav id="sitenav">
       {% include nav.html %}
