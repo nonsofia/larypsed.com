@@ -142,7 +142,6 @@ h1 a:hover {
   flex-direction: column;
   gap: 2px;
   font-size: 0.875rem;
-  padding-bottom: 40px; /* match #text-content padding so .nav-external aligns with content bottom */
 }
 
 #sitenav a,
@@ -171,15 +170,7 @@ h1 a:hover {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  padding-top: 20px;  /* minimum spacing above */
-  padding-bottom: 40px; /* consistent spacing below on non-homepage pages */
-}
-
-/* On the homepage the external links are pinned to the bottom of the nav column;
-   the 40px below comes from #sitenav padding-bottom, not from here */
-.is-homepage .nav-external {
-  margin-top: auto;
-  padding-bottom: 0;
+  padding-top: 20px; /* fixed space between main links and external links */
 }
 
 /* Tablet / mobile: homepage keeps vertical nav; all other pages hide it */
@@ -193,7 +184,11 @@ h1 a:hover {
   .is-homepage #sitenav {
     display: flex;
     flex-direction: column;
-    padding-bottom: 0; /* #text-content wrappers have display:contents on mobile, so no padding offset needed */
+  }
+
+  /* Homepage mobile: pin external links to the bottom of the nav column */
+  .is-homepage .nav-external {
+    margin-top: auto;
   }
 
 
