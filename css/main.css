@@ -108,21 +108,29 @@ h1 a:hover {
   #main-content { grid-area: content; }
 }
 
-/* Homepage mobile: same two-column grid regardless of viewport width */
+/* Homepage mobile: hero full-width above nav + text side by side */
 @media (max-width: 899px) {
   .is-homepage {
     display: grid;
     grid-template-columns: var(--nav-width) 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-areas:
       "title   title"
+      "hero    hero"
       "nav     content";
     column-gap: 24px;
   }
 
-  .is-homepage h1        { grid-area: title; }
-  .is-homepage #sitenav  { grid-area: nav; }
-  .is-homepage #main-content { grid-area: content; }
+  .is-homepage h1             { grid-area: title; }
+  .is-homepage #sitenav       { grid-area: nav; }
+
+  /* Dissolve the wrapper boxes so .hero-image and .text-page
+     participate directly in the grid */
+  .is-homepage #main-content  { display: contents; }
+  .is-homepage #text-content  { display: contents; }
+
+  .is-homepage .hero-image    { grid-area: hero; }
+  .is-homepage .text-page     { grid-area: content; }
 }
 
 /* --------------------------------------------------------------------------
