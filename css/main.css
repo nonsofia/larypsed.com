@@ -166,8 +166,12 @@ h1 a:hover {
   color: var(--color-text);
 }
 
-.menu-contacts {
-  display: contents; /* render children inline in the flex column */
+.nav-external {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: auto;
+  padding-top: 20px; /* minimum spacing when content is short */
 }
 
 /* Tablet / mobile: homepage keeps vertical nav; all other pages hide it */
@@ -184,9 +188,7 @@ h1 a:hover {
     padding-bottom: 20px;
   }
 
-  .menu-contacts {
-    display: contents;
-  }
+
 }
 
 /* --------------------------------------------------------------------------
