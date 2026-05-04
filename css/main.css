@@ -66,7 +66,7 @@ img {
 }
 
 /* --------------------------------------------------------------------------
-   Layout — desktop (≥ 900px)
+   Layout — desktop (≥ 600px)
    -------------------------------------------------------------------------- */
 #container {
   max-width: var(--container-max);
@@ -91,8 +91,8 @@ h1 a:hover {
 }
 
 /* Two-column layout — nav left, content right.
-   Always active on homepage; only at ≥ 900px on other pages. */
-@media (min-width: 900px) {
+   Always active on homepage; only at ≥ 600px on other pages. */
+@media (min-width: 600px) {
   #container {
     display: grid;
     grid-template-columns: var(--nav-width) 1fr;
@@ -109,7 +109,7 @@ h1 a:hover {
 }
 
 /* Homepage mobile: hero full-width above nav + text side by side */
-@media (max-width: 899px) {
+@media (max-width: 599px) {
   .is-homepage {
     display: grid;
     grid-template-columns: var(--nav-width) 1fr;
@@ -174,7 +174,7 @@ h1 a:hover {
 }
 
 /* Tablet / mobile: homepage keeps vertical nav; all other pages hide it */
-@media (max-width: 899px) {
+@media (max-width: 599px) {
   /* Non-homepage: hide the nav entirely */
   #sitenav {
     display: none;
@@ -227,7 +227,7 @@ h1 a:hover {
   max-width: 571px;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 599px) {
   #text-content .hero-image {
     margin-top: 0;
   }
@@ -353,24 +353,14 @@ h1 a:hover {
 /* --------------------------------------------------------------------------
    Responsive adjustments
    -------------------------------------------------------------------------- */
-@media (max-width: 899px) {
+@media (max-width: 599px) {
   #container {
-    padding: 0 24px;
+    padding: 0 16px;
   }
 
   h1 {
     padding-top: 32px;
     padding-bottom: 16px;
-  }
-
-  :root {
-    --gallery-img-h: 70vw;
-  }
-}
-
-@media (max-width: 599px) {
-  #container {
-    padding: 0 16px;
   }
 
   :root {
