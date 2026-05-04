@@ -142,6 +142,7 @@ h1 a:hover {
   flex-direction: column;
   gap: 2px;
   font-size: 0.875rem;
+  padding-bottom: 40px; /* match #text-content padding so .nav-external aligns with content bottom */
 }
 
 #sitenav a,
@@ -185,7 +186,7 @@ h1 a:hover {
   .is-homepage #sitenav {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 0; /* #text-content wrappers have display:contents on mobile, so no padding offset needed */
   }
 
 
